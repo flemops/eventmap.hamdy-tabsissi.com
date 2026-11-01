@@ -9,11 +9,11 @@
 # le CD en quarantaine sans jamais réparer quoi que ce soit. Versions =
 # celles vérifiées en production (`pip freeze` sur /opt/eventmap/.venv).
 # Même logique déjà appliquée à observatory.
-fastapi==0.142.2
+fastapi==0.162.0
 uvicorn[standard]==0.54.0
 httpx==0.28.1
 icalendar==7.3.0
-python-dateutil==2.9.0.post0
+python-dateutil==3.0.0
 PyYAML==6.0.3
 
 # Optionnel — scrape.py uniquement, jamais chargé sans ANTHROPIC_API_KEY
